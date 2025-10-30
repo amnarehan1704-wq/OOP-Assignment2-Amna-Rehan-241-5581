@@ -21,6 +21,7 @@ void push(int value)
         cout<<value<<"pushed into stack"<<endl;
     
     }
+}
 void pop() 
 {
     if(top==-1)
@@ -77,4 +78,5 @@ int main() {
        cout<<"Stack is not empty"<<endl;
 
     return 0;
+
 }
