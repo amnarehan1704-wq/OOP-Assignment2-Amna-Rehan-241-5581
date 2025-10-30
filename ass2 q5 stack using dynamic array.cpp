@@ -18,7 +18,7 @@ void push(int value)
 	{
         top++;
         stack[top]=value;
-        cout<<value<<"pushed into stack"<<endl;
+        cout<<value<<" pushed into stack"<<endl;
     
     }
 }
@@ -30,7 +30,7 @@ void pop()
   } 
   else
    {
-       cout<<stack[top]<<" popped from stack"<<endl;
+       cout<<stack[top]<<"  popped from stack"<<endl;
        top--;
    }
 }
@@ -56,7 +56,7 @@ void display()
     }
 	 else
 	  {
-       cout<<"Stack elements";
+       cout<<"Stack elements:";
        for (int i=top;i>=0;i--) 
 	   {
            cout<<stack[i]<<" ";
@@ -80,3 +80,4 @@ int main() {
     return 0;
 
 }
+
