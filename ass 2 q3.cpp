@@ -150,7 +150,6 @@ void displayForward()
        return;
         }
 
-        cout<<"Books in Order"<<endl;
         Node* temp=head;
         while(temp!=NULL) 
 		{
@@ -197,12 +196,13 @@ int main() {
     cout << "Deleting book with ID 102"<<endl;
     library.deleteByID(102);
   
-    cout<<"After deletion the list is:";
+    cout<<"After deletion the list is:"<<endl;
     library.displayForward();
     library.displayBackward();
 
     return 0;
 }
+
 
 
 
